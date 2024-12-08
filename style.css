@@ -1254,4 +1254,8 @@ input[type="date"]{
     .icons img{
         margin-right: 25%;
     }
+    .back-button-katalog {
+        padding-left: 220px;
+        padding-top: 50px;
+    }
 }
