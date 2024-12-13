@@ -644,6 +644,11 @@ hr.solid {
     border-top: 6px solid #E60013;
   }
 
+hr.jasa {
+    padding-top: 50px;
+    border-top: 6px solid #E60013;
+  }
+
 #progress {
     position: fixed;
     bottom: 20px;
@@ -1219,12 +1224,6 @@ input[type="date"]{
     padding-bottom: 80px;
     padding-top: 30px;
 }
-
-hr.rounded {
-    border-top: 8px solid #E60013;
-    border-radius: 5px;
-    width: 871px;
-  }
 
 .product-card{
     display: grid;
