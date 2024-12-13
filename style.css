@@ -323,6 +323,12 @@ p {
     background-color: var(--color-white);
     color: var(--color-brightred);
     padding: 10px 60px;
+    cursor: pointer;
+}
+
+.outline:hover{
+    background-color: var(--color-brightred);
+    color: var(--color-white)
 }
 
 .about {
@@ -569,7 +575,7 @@ p {
     grid-template-columns: 70%;
     justify-content: center;
     align-content: center;
-    margin-top: 20px;
+    margin-top: 5%;
     margin-bottom: 120px;
 }
 
@@ -783,6 +789,14 @@ footer {
 .footerBottom p {
     color: white;
     font-size: 14px;
+}
+
+.designer {
+    opacity: 1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
 }
 
 /* JASA DESIGN */
@@ -1294,23 +1308,9 @@ input[type="date"]{
         margin-top: 10%;
     }
 
-    .about img {
-        margin-left: 20%;
-    }
-    .icons img{
-        margin-right: 25%;
-    }
     .back-button-katalog {
         padding-left: 220px;
         padding-top: 50px;
-    }
-    .footerContainer img{
-        width: 65%;
-        margin-left: 190px;
-        margin-top: 20px;
-    }
-    .logo{
-        padding-left: 100px;
     }
 }
 
@@ -1320,7 +1320,11 @@ input[type="date"]{
         padding-top: 50px;
     }
      .about-content{
-        margin-right: 5%;
+        margin-right: 10%;
+    }
+    .card {
+        width: 230px;
+        margin: 8px;
     }
     .img-pabrik {
         max-width: 90%;
@@ -1335,14 +1339,6 @@ input[type="date"]{
 
     p {
         font-size: 14px;
-    }
-    .footerContainer img{
-        width: 65%;
-        margin-left: 150px;
-        margin-top: 20px;
-    }
-    .logo{
-        padding-left: 100px;
     }
 }
 
