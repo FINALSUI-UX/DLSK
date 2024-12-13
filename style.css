@@ -644,10 +644,10 @@ hr.solid {
     border-top: 6px solid #E60013;
   }
 
-hr.jasa {
+/* hr.jasa {
     padding-top: 50px;
     border-top: 6px solid #E60013;
-  }
+  } */
 
 #progress {
     position: fixed;
