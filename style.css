@@ -785,14 +785,6 @@ footer {
     font-size: 14px;
 }
 
-.designer {
-    opacity: 1;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-    margin: 0px 5px;
-}
-
 /* JASA DESIGN */
 .carajasa {
     display: flex;
@@ -1312,6 +1304,11 @@ input[type="date"]{
         padding-left: 220px;
         padding-top: 50px;
     }
+    .footerContainer img{
+        width: 65%;
+        margin-left: 190px;
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 1400px) {
@@ -1335,6 +1332,11 @@ input[type="date"]{
 
     p {
         font-size: 14px;
+    }
+    .footerContainer img{
+        width: 65%;
+        margin-left: 150px;
+        margin-top: 20px;
     }
 }
 
