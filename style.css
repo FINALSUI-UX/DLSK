@@ -1312,6 +1312,14 @@ input[type="date"]{
         padding-left: 220px;
         padding-top: 50px;
     }
+    .footerContainer img {
+        width: 65%;
+        margin-left: 190px;
+        margin-top: 20px;
+    }
+    .logo{
+        padding-left: 100px;
+    }
 }
 
 @media (max-width: 1400px) {
@@ -1339,6 +1347,14 @@ input[type="date"]{
 
     p {
         font-size: 14px;
+    }
+    .logo{
+        padding-left: 100px;
+    }
+    .footerContainer img{
+        width: 65%;
+        margin-left: 150px;
+        margin-top: 20px;
     }
 }
 
