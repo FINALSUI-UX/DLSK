@@ -35,7 +35,7 @@ body {
 }
 
 .sub-header-katalog {
-    font-size: 14px;
+    font-size: 16px;
     color: rgba(51, 51, 51, 0.5);
 }
 
@@ -90,7 +90,7 @@ body {
 
 .card2-content p {
     color: #453B35;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .card-button {
@@ -113,7 +113,7 @@ body {
     color: var(--color-white);
     padding: 14px;
     border-radius: 2px;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
 }
 
