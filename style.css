@@ -304,6 +304,27 @@ p {
     z-index: -5;
 }
 
+.popularProducts{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    text-align: left;
+    margin-right: 48px;
+    margin-top: 48px;
+}
+
+.products-desc{
+    margin-top: 15%;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.outline{
+    border: solid  2px var(--color-brightred);
+    background-color: var(--color-white);
+    color: var(--color-brightred);
+    padding: 10px 60px;
+}
+
 .about {
     display: grid;
     grid-template-columns: 50% 40%;
