@@ -589,6 +589,7 @@ p {
     color: var(--color-black);
     text-align: center;
     margin-bottom: 10px;
+    background-image: url(zsdrfxc.png);
 }
 
 .timer {
@@ -608,30 +609,36 @@ p {
 
 .sub_timer {
     width: 220px;
-    background: rgba(211, 211, 211, 0.1);
+    background: linear-gradient(180deg, #E94646, #832727);
     backdrop-filter: blur(50px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
-    margin-left: 24px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     overflow: hidden;
+    box-shadow: 0px 20px 10px -2px #c2bebe;
 }
 
 .digit {
-    color: var(--color-darkred);
-    font-weight: light;
-    font-size: 70px;
+    color: #f5f5f5;
+    font-weight: lighter;
+    font-size: 80px;
     text-align: center;
     padding: 2.5rem 0;
 }
 
 .digit_name {
-    color: var(--color-white);
-    background: linear-gradient(180deg, #E94646, #832727);
-    font-weight: medium;
+    margin-top: 30px;
+    color: #181823;
+    font-weight: bold;
     text-align: center;
     padding: 0.6rem 0;
     font-size: 25px;
+    padding-bottom: 80px;
 }
+
+hr.solid {
+    border-top: 6px solid #E60013;
+  }
 
 #progress {
     position: fixed;
@@ -756,7 +763,7 @@ footer {
     padding-left: 50px;
     padding-top: 20px;
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .footerNav div {
@@ -788,7 +795,7 @@ footer {
 
 .footerBottom p {
     color: white;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .designer {
