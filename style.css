@@ -416,6 +416,7 @@ p {
 .tab {
     overflow: hidden;
     text-align: center;
+    margin-right: 10px;
 }
 
 .tab button {
