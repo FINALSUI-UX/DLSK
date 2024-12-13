@@ -327,16 +327,44 @@ p {
 
 .about {
     display: grid;
-    grid-template-columns: 50% 40%;
+    grid-template-columns: 50% 50%;
     text-align: left;
     align-items: center;
-    margin: 80px 120px;
+    margin-top: 5%;
+    background-image: linear-gradient(180deg, #E94646, #832727);
+    /* margin: 80px 120px; */
 }
 
-.about img {
-    width: 60%;
-    border-radius: 8px;
-    margin-left: 15%;
+.about-desc{
+    display: grid;
+    grid-template-columns: 45% 5% 45%;
+    text-align: left;
+}
+
+.about-content{
+    margin-right: 48px;
+}
+
+.about h1{
+    color: var(--color-white);
+}
+
+.about p{
+    color: var(--color-white);
+}
+
+.img-pabrik {
+    display: block;
+    font-size:0;
+    line-height:0;
+}
+
+.img-pabrik img{
+    width: 90%;
+}
+
+.red-gradientBG{
+    background-image: linear-gradient(180deg, #E94646, #832727);
 }
 
 .icons {
@@ -347,15 +375,16 @@ p {
 .grid-item {
     font-size: 24px;
     text-align: center;
+    color: var(--color-white);
 }
 
 .grid-item p {
     font-size: 16px;
-    color: var(--color-grey);
+    color: var(--color-lighgrey);
 }
 
 .grid-item img {
-    width: 35%;
+    width: 20%;
     text-align: left;
 }
 
@@ -1269,6 +1298,10 @@ input[type="date"]{
         font-size: 12px;
     }
 
+    .products-desc{
+        margin-top: 10%;
+    }
+
     .about img {
         margin-left: 20%;
     }
@@ -1286,4 +1319,22 @@ input[type="date"]{
         padding-left: 185px;
         padding-top: 50px;
     }
+     .about-content{
+        margin-right: 5%;
+    }
+    .img-pabrik {
+        max-width: 90%;
+    }
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }
+
