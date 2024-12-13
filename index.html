@@ -310,7 +310,7 @@
         reloadSlider();
     }
 
-    let refreshSlider = setInterval(() => { next.click() }, 5000);
+    let refreshSlider = setInterval(() => { next.click() }, 7000);
 
     function reloadSlider() {
         let checkLeft = items[active].offsetLeft;
@@ -320,7 +320,7 @@
         lastActiveDot.classList.remove('active');
         dots[active].classList.add('active');
         clearInterval(refreshSlider);
-        let refreshSlider = setInterval(() => { next.click() }, 5000);
+        let refreshSlider = setInterval(() => { next.click() }, 7000);
     }
 
     dots.forEach((li, key) => {
