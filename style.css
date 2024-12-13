@@ -596,22 +596,16 @@ p {
     margin-bottom: 25px;
 }
 
-.timer {
+.timer{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 60px;
-}
-
-.timer p {
-    color: var(--color-white);
+    margin-top: 30px;
     text-align: center;
-    font-size: 25px;
-    font-weight: lighter;
-    letter-spacing: 1px;
+    align-items: center;
 }
 
-.sub_timer {
+.sub_timer{
     width: 220px;
     background: linear-gradient(180deg, #E94646, #832727);
     backdrop-filter: blur(50px);
@@ -622,15 +616,16 @@ p {
     box-shadow: 0px 20px 10px -2px #c2bebe;
 }
 
-.digit {
+.digit{
     color: #f5f5f5;
     font-weight: lighter;
     font-size: 80px;
     text-align: center;
     padding: 2.5rem 0;
+    /* box-shadow: 5px 50px 60px 5px rgb(216, 216, 216); */
 }
 
-.digit_name {
+.digit_name{
     margin-top: 30px;
     color: #181823;
     font-weight: bold;
