@@ -570,16 +570,19 @@ p {
     padding: 8px 48px;
 }
 
-.wrapper {
-    display: grid;
-    width: 100%;
-    background-image: url("../images/zsdrfxc.png");
-    grid-template-columns: 70%;
-    justify-content: center;
-    align-content: center;
-    margin-top: 7%;
-    margin-bottom: 120px;
-    text-align: center;
+.wrapper{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(zsdrfxc.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    overflow: hidden;
 }
 
 .wrapper h1{
@@ -596,7 +599,7 @@ p {
     color: var(--color-black);
     background-image: url("../images/zsdrfxc.png");
     font-size: 40px;
-    font-weight: lighter;
+    font-weight: bold;
     text-align: center;
     letter-spacing: 2px;
     word-spacing: 6px;
