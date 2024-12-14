@@ -1264,6 +1264,10 @@ input[type="date"]:hover{
     cursor: pointer;
 }
 
+.product-card button:hover{
+    background-color: var(--color-darkred);
+}
+
 .button-mesin-more{
     text-decoration: none;
     background-color: var(--color-white);
