@@ -1223,10 +1223,7 @@ input[type="date"]:hover{
 }
 
 .divider {
-    border-top: 6px
     padding-bottom: 30px;
-    padding-top: 30px;
-    width: 1000px;
 }
 
 .product-card{
