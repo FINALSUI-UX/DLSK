@@ -573,6 +573,7 @@ p {
 .wrapper {
     display: grid;
     width: 100%;
+    background-image: url("../images/zsdrfxc.png");
     grid-template-columns: 70%;
     justify-content: center;
     align-content: center;
@@ -587,6 +588,7 @@ p {
 
 .wrapper p {
     text-align: center;
+    font-size: 16px;
     color: var(--color-brightred);
 
 }
