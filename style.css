@@ -649,6 +649,16 @@ hr.solid {
     border-top: 6px solid #E60013;
   }
 
+hr.rounded {
+    margin: 0 auto;  
+    border: none;      
+    border-top: 8px solid #d02d27;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+}
+
 /* hr.jasa {
     padding-top: 50px;
     border-top: 6px solid #E60013;
