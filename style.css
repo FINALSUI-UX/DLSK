@@ -596,14 +596,7 @@ p {
 }
 
 .timeheading {
-    color: var(--color-black);
-    background-image: url("../images/zsdrfxc.png");
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    letter-spacing: 2px;
-    word-spacing: 6px;
-    margin-bottom: 25px;
+    color: #E60013;
 }
 
 .timer{
