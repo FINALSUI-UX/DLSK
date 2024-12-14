@@ -1001,12 +1001,16 @@ footer {
     position: relative;
     width: 224px;
     height: 26px;
-    background-color: #F5F5F5;
+    /* background-color: #F5F5F5; */
+}
+
+.jenis_pesanan_dropdown_isi:hover {
+    background-color: #cecece;
 }
 
 select {
     appearance: none;
-    background:#F5F5F5;
+    background:#eeeeee;
     border: none;
     color: #000000;
     padding: 2px;
@@ -1022,18 +1026,13 @@ select {
 
 select:focus {
     outline: none;
-    background: #ffffff;
+    background: #eeeeee;
 }
 
 option {
-    background:#ffffff;
+    background: #f7f6f6;
     color: #000000;
-}
-
-select:hover {
-    background: var(--color-lighgrey);
-}
-
+} 
 
 .deadline {
     width: 537px;
@@ -1058,6 +1057,10 @@ input[type="date"]{
     border: 1px solid;
     width: 224px;
     align-content: center;
+}
+
+input[type="date"]:hover{
+    background-color: #cecece;
 }
 
 .deadline p {
@@ -1148,8 +1151,8 @@ input[type="date"]{
     align-items: center;
 }
 
-.upload_text:hover{
-    background: var(--color-lighgrey);
+.upload_text label:hover{
+    background-color: #cecece;
 }
 
 
