@@ -643,6 +643,7 @@ p {
 
 hr.solid {
     border-top: 6px solid #E60013;
+    padding-bottom: 30px;
   }
 
 /* hr.jasa {
