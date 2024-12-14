@@ -1402,6 +1402,9 @@ input[type="date"]:hover{
     .logo-footer{
         padding-left: 100px;
     }
+    
+    .wrapper {
+        background-size: 70%;
 }
 
 @media (max-width: 1400px) {
@@ -1441,5 +1444,7 @@ input[type="date"]:hover{
     .sub_timer{
         width: 180px;
     }
+    .wrapper {
+        background-size: 60%;
 }
 
