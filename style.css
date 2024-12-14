@@ -1404,7 +1404,7 @@ input[type="date"]:hover{
     }
     
     .wrapper {
-        background-size: 70%;
+        background-size: 90%;
 }
 
 @media (max-width: 1400px) {
@@ -1445,6 +1445,6 @@ input[type="date"]:hover{
         width: 180px;
     }
     .wrapper {
-        background-size: 60%;
+        background-size: 80%;
 }
 
