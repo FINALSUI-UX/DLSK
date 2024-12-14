@@ -1300,6 +1300,11 @@ input[type="date"]:hover{
   border-radius: 4px;
 }
 
+.card-button:hover{
+    color: #f5f5f5;
+    background-color: #80000B;
+}
+
 @media (max-width: 1600px) {
     .grid-container {
         grid-template-columns: 1fr;
